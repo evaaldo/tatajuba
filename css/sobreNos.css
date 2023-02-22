@@ -1,0 +1,31 @@
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.sobre-nos__titulo {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.sobre-nos__conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sobre-nos__texto {
+    width: 600px;
+    text-align: justify;
+}
+
+.sobre-nos__img {
+    width: 600px;
+    border-radius: 10px;
+}
+

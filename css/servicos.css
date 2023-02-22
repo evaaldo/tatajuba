@@ -20,20 +20,23 @@
 
 #caixa1, #caixa2, #caixa3 {
     padding: .5em 1em;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
     font-size: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 #caixa1 {
     background-color: var(--verde-escuro);
+    background-image: url(/img/chale.jpg);
 }
 
 #caixa2 {
     background-color: var(--azul-caixa);
+    background-image: url(/img/barraca.jpg);
 }
 
 #caixa3 {
     background-color: var(--laranja);
+    background-image: url(/img/kitesurf.jpg);
 }

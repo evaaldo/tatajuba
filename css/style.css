@@ -2,6 +2,7 @@
 @import url(/css/cabecalho.css);
 @import url(/css/home.css);
 @import url(/css/servicos.css);
+@import url(/css/sobreNos.css);
 
 :root {
     --branco: #fff;
