@@ -1,0 +1,39 @@
+.servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos__titulo {
+    font-size: 3em;
+    margin: 2em;
+    font-weight: 500;
+}
+
+.servicos-caixas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicos-caixa {
+    color: var(--branco);
+}
+
+#caixa1, #caixa2, #caixa3 {
+    padding: .5em 1em;
+    width: 400px;
+    height: 400px;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#caixa1 {
+    background-color: var(--verde-escuro);
+}
+
+#caixa2 {
+    background-color: var(--azul-caixa);
+}
+
+#caixa3 {
+    background-color: var(--laranja);
+}

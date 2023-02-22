@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url(/css/cabecalho.css);
 @import url(/css/home.css);
+@import url(/css/servicos.css);
 
 :root {
     --branco: #fff;
@@ -11,6 +12,8 @@
     --verde: #0f0;
     --verde-escuro: rgb(9, 166, 9);
     --azul: #00f;
+    --azul-caixa: #2C74B3;
+    --laranja: #FF6E31;
 }
 
 * {
@@ -18,4 +21,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
