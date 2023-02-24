@@ -15,6 +15,7 @@
     --azul: #00f;
     --azul-caixa: #2C74B3;
     --laranja: #FF6E31;
+    --areia-fundo: #F6F7C1;
 }
 
 * {
@@ -26,4 +27,8 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--areia-fundo);
 }

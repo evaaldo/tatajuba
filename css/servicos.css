@@ -3,6 +3,16 @@
     flex-direction: column;
 }
 
+.servicos-caixa__link {
+    text-decoration: none;
+    color: var(--branco);
+    transition: all .3s;
+}
+
+.servicos-caixa__link:hover {
+    opacity: .7;
+}
+
 .servicos__titulo {
     font-size: 3em;
     margin: 2em;
@@ -20,8 +30,8 @@
 
 #caixa1, #caixa2, #caixa3 {
     padding: .5em 1em;
-    width: 450px;
-    height: 600px;
+    width: 7em;
+    height: 12em;
     font-size: 3em;
     margin-bottom: 2em;
 }
@@ -33,7 +43,7 @@
 
 #caixa2 {
     background-color: var(--azul-caixa);
-    background-image: url(/img/barraca.jpg);
+    background-image: url(/img/sobreNos1.jpg);
 }
 
 #caixa3 {
