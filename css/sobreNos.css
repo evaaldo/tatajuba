@@ -2,31 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4em;
-    margin-bottom: 2em;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.circulo-laranja {
+    color: var(--laranja);
+    font-size: 3em;
 }
 
 .sobre-nos__titulo {
-    text-align: center;
-    font-size: 3em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-.sobre-nos__conteudo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2em;
+.sobre-nos__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 600;
+    padding: .5em 2em;
+    background-color: var(--verde-escuro);
+    border-radius: 25px;
+    transition: .3s;
 }
 
-.sobre-nos__texto {
-    width: 34em;
-    text-align: justify;
+.sobre-nos__link:hover {
+    background-color: var(--preto);
 }
-
-.sobre-nos__img {
-    width: 34em;
-    border-radius: 10px;
-}
-
