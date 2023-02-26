@@ -44,7 +44,7 @@
 }
 
 .home-barra__botao:hover {
-    opacity: .8;
+    background-color: var(--preto);
 }
 
 
