@@ -4,74 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tatajuba Brasil</title>
+    <title>TATAJUBA BRAZIL - HOME</title>
 
-    <link rel="stylesheet" href="/css/style.css">
-    <script defer src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Tatajuba Brasil/css/style.css">
+    <link rel="stylesheet" href="/Tatajuba Brasil/css/home.css">
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho__logo">
-            <h2 class="cabecalho__logo-titulo">Tatajuba Brasil</h2>
-            <p class="cabecalho__logo-subtitulo">Turismo e hospedagem</p>
-        </div>
-        <ul class="cabecalho__itens">
-            <li class="cabecalho__item"><a href="#home" class="cabecalho__link">Home</a></li>
-            <li class="cabecalho__item"><a href="#servicos" class="cabecalho__link">Serviços</a></li>
-            <li class="cabecalho__item"><a href="#sobre-nos" class="cabecalho__link">Sobre nós</a></li>
-            <li class="cabecalho__item"><a href="#contato" class="cabecalho__link">Contato</a></li>
-            <li class="cabecalho__item"><a href="#contato" class="cabecalho__botao">Fale conosco</a></li>
+    <section class="home">
+        <ul class="home-cabecalho">
+           <li><a class="home-cabecalho__link" href="/Tatajuba Brasil/index.html">HOME</a></li>
+           <li><a class="home-cabecalho__link" href="/Tatajuba Brasil/sobre.html">SOBRE</a></li>
+           <li><a class="home-cabecalho__link" href="#">CONTATO</a></li>
         </ul>
-    </header>
-    <section id="home" class="home">
-        <h1 class="home__titulo">Tatajuba, o paraíso cearense</h1>
-        <div class="home-barra">
-            <h1 class="home-barra__subtitulo">Quer conhecer mais?</h1>
-            <a href="#servicos" class="home-barra__botao">Vamos!</a>
+        <label class="sidebar-active" for="sidebar"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" name="sidebar" id="sidebar">
+        <ul class="home-cabecalho-mobile">
+            <li><a class="home-cabecalho-mobile__link" href="/Tatajuba Brasil/index.html">HOME</a></li>
+            <li><a class="home-cabecalho-mobile__link" href="/Tatajuba Brasil/sobre.html">SOBRE</a></li>
+            <li><a class="home-cabecalho-mobile__link" href="#">CONTATO</a></li>
+            <label class="sidebar-cancel" for="sidebar"><i class="fa-solid fa-xmark"></i></label>
+        </ul>
+        <div class="home-principal">
+            <h1 class="home-principal__titulo">TATAJUBA BRAZIL</h1>
+            <h3 class="home-principal__subtitulo">O PARAÍSO CEARENSE</h3>
         </div>
-    </section>
-    <section id="servicos" class="servicos">
-        <h1 class="servicos__titulo">Nossos serviços</h1>
-        <div class="servicos-caixas">
-            <div class="servicos-caixa">
-                <a class="servicos-caixa__link" href="#"><h1 id="caixa1" class="servicos-caixa__nome">Chalés</h1></a>
-            </div>
-            <div class="servicos-caixa">
-                <a class="servicos-caixa__link" href="#"><h1 id="caixa2" class="servicos-caixa__nome">Barraca de praia</h1></a>
-            </div>
-            <div class="servicos-caixa">
-                <a class="servicos-caixa__link" href="#"><h1 id="caixa3" class="servicos-caixa__nome">Kite surf</h1></a>
-            </div>
-        </div>
-    </section>
-    <section id="sobre-nos" class="sobre-nos">
-        <i class="circulo-laranja fa-solid fa-circle"></i>
-        <h1 class="sobre-nos__titulo">Nossa história</h1>
-        <a class="sobre-nos__link" href="#">Saiba mais</a>
-    </section>
-    <section class="detalhes">
-        <h1 class="detalhes__titulo">Curta Tatajuba ao máximo</h1>
-        <div class="detalhes-conteudo">
-            <div class="detalhes-conteudo__texto">
-                <div class="detalhes-conteudo__texto-bloco">
-                    <p class="detalhes-conteudo__texto-bloco__indice">01</p>
-                    <p class="detalhes-conteudo__texto-bloco__titulo">Reserve</p>
-                    <p class="detalhes-conteudo__texto-bloco__texto">Busque aqui nossos chalés e encontre qual é de seu maior conforto</p>
-                </div>
-                <div class="detalhes-conteudo__texto-bloco">
-                    <p class="detalhes-conteudo__texto-bloco__indice">02</p>
-                    <p class="detalhes-conteudo__texto-bloco__titulo">Barracas de praia</p>
-                    <p class="detalhes-conteudo__texto-bloco__texto">Olhe nossas lindas barracas e tenha o almoço típico da culinária cearense</p>
-                </div>
-                <div class="detalhes-conteudo__texto-bloco">
-                    <p class="detalhes-conteudo__texto-bloco__indice">03</p>
-                    <p class="detalhes-conteudo__texto-bloco__titulo">Aulas de kite</p>
-                    <p class="detalhes-conteudo__texto-bloco__texto">Curta o vento e nossas ondas ideais para kitesurf com o ensino dos melhores velejadores do Ceará</p>
-                </div>
-            </div>
-            <div class="detalhes-conteudo__imagens">
-                <img class="detalhes-conteudo__imagens__imagem" src="/img/detalhes.jpg" alt="">
-            </div>
+        <div class="rodape">
+            <p class="rodape__copyright">ⓒ 2023 Copyright - Tatajuba Brazil</p>
         </div>
     </section>
 </body>
